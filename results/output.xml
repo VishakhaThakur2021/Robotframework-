@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0 (Python 3.7.0 on win32)" generated="20220328 21:06:01.634" rpa="false" schemaversion="3">
+<suite id="s1" name="Register" source="C:\Users\abhay\Desktop\Flask\Flasky-master\demoapp_UI\Tests\register.robot">
+<test id="s1-t1" name="Register user" line="10">
+<kw name="Go to demo app dashboard" library="demoApp">
+<kw name="UserDetails" library="registerPage">
+<msg timestamp="20220328 21:06:01.821" level="FAIL">Keyword 'registerPage.UserDetails' expected 5 arguments, got 0.</msg>
+<status status="FAIL" starttime="20220328 21:06:01.821" endtime="20220328 21:06:01.821"/>
+</kw>
+<status status="FAIL" starttime="20220328 21:06:01.821" endtime="20220328 21:06:01.821"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>user is registered</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="NOT RUN" starttime="20220328 21:06:01.821" endtime="20220328 21:06:01.821"/>
+</kw>
+<status status="FAIL" starttime="20220328 21:06:01.821" endtime="20220328 21:06:01.821">Keyword 'registerPage.UserDetails' expected 5 arguments, got 0.</status>
+</test>
+<status status="FAIL" starttime="20220328 21:06:01.634" endtime="20220328 21:06:01.821"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Register">Register</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20220328 21:06:01.806" level="ERROR">Error in file 'C:\Users\abhay\Desktop\Flask\Flasky-master\demoapp_UI\Utilities\common_functions.robot' on line 4: Processing variable file '../Variable/variables.robot' failed: Importing variable file '../Variable/variables.robot' failed: ModuleNotFoundError: No module named '.'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Users\abhay\Downloads\Flasky-master\venv\Scripts\robot.exe
+  c:\Users\abhay\Downloads\Flasky-master\venv\Scripts\python37.zip
+  C:\Users\abhay\AppData\Local\Programs\Python\Python37\DLLs
+  C:\Users\abhay\AppData\Local\Programs\Python\Python37\lib
+  C:\Users\abhay\AppData\Local\Programs\Python\Python37
+  c:\Users\abhay\Downloads\Flasky-master\venv
+  c:\Users\abhay\Downloads\Flasky-master\venv\lib\site-packages
+  c:\Users\abhay\Downloads\Flasky-master\venv\lib\site-packages\win32
+  c:\Users\abhay\Downloads\Flasky-master\venv\lib\site-packages\win32\lib
+  c:\Users\abhay\Downloads\Flasky-master\venv\lib\site-packages\Pythonwin</msg>
+<msg timestamp="20220328 21:06:01.806" level="ERROR">Error in file 'C:\Users\abhay\Desktop\Flask\Flasky-master\demoapp_UI\Resources\PageObjects\loginPage.robot' on line 5: Processing variable file 'C:\Users\abhay\Desktop\Flask\Flasky-master\demoapp_UI/Variable/locators.robot' failed: Importing variable file 'C:\Users\abhay\Desktop\Flask\Flasky-master\demoapp_UI/Variable/locators.robot' failed: File or directory does not exist.</msg>
+<msg timestamp="20220328 21:06:01.806" level="ERROR">Error in file 'C:\Users\abhay\Desktop\Flask\Flasky-master\demoapp_UI\Resources\PageObjects\loginPage.robot' on line 6: Processing variable file 'C:\Users\abhay\Desktop\Flask\Flasky-master\demoapp_UI/Variable/variables.robot' failed: Importing variable file 'C:\Users\abhay\Desktop\Flask\Flasky-master\demoapp_UI/Variable/variables.robot' failed: File or directory does not exist.</msg>
+<msg timestamp="20220328 21:06:01.806" level="ERROR">Error in file 'C:\Users\abhay\Desktop\Flask\Flasky-master\demoapp_UI\Resources\PageObjects\registerPage.robot' on line 4: Processing variable file '../Utilities/common_functions.robot' failed: Importing variable file '../Utilities/common_functions.robot' failed: ModuleNotFoundError: No module named '.'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Users\abhay\Downloads\Flasky-master\venv\Scripts\robot.exe
+  c:\Users\abhay\Downloads\Flasky-master\venv\Scripts\python37.zip
+  C:\Users\abhay\AppData\Local\Programs\Python\Python37\DLLs
+  C:\Users\abhay\AppData\Local\Programs\Python\Python37\lib
+  C:\Users\abhay\AppData\Local\Programs\Python\Python37
+  c:\Users\abhay\Downloads\Flasky-master\venv
+  c:\Users\abhay\Downloads\Flasky-master\venv\lib\site-packages
+  c:\Users\abhay\Downloads\Flasky-master\venv\lib\site-packages\win32
+  c:\Users\abhay\Downloads\Flasky-master\venv\lib\site-packages\win32\lib
+  c:\Users\abhay\Downloads\Flasky-master\venv\lib\site-packages\Pythonwin</msg>
+</errors>
+</robot>
